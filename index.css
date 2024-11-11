@@ -1,0 +1,255 @@
+:root {
+    --maincolor: white;
+    --secondcolor: rgb(255, 204, 0);
+    --thrid: rgb(194, 29, 0);
+}
+
+* {
+    margin: 0px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.navbar h1 {
+    color: var(--maincolor);
+    font-size: 70px;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    margin: 15px 220px 0px -120px;
+}
+
+.divelement-nav {
+    margin: 0px -410px 0px 0px;
+}
+
+.divelement-nav a:hover {
+    color: rgb(255, 204, 0);
+    padding-bottom: 3px;
+    border-bottom: 2px solid rgb(255, 204, 0);
+    transition: 0.2s;
+}
+
+.navbar .element-nav {
+    color: var(--maincolor);
+    margin: 0px 20px 0px 0px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.divicon {
+    margin: 0px -120px 0px 50px;
+}
+
+.icon {
+    color: rgb(255, 0, 0);
+    margin: 0px 20px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: var(--maincolor);
+    border-radius: 30px;
+}
+
+.icon:hover {
+    color: rgb(255, 170, 43);
+}
+
+.navbar {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bg {
+    position: relative;
+    z-index: 0;
+    margin-top: -200px;
+    filter: brightness(90%);
+}
+
+.divmiddlepict {
+    display: flex;
+    justify-content: end;
+    margin-top: -560px;
+    z-index: 20;
+    position: relative;
+    margin-right: 130px;
+}
+
+.middlepict {
+    width: 400px;
+    height: 400px;
+    filter: contrast(1.4) drop-shadow(5px 5px 20px rgb(0, 0, 0));
+}
+
+.divmiddletext {
+    margin-top: -400px;
+    position: absolute;
+    z-index: 30;
+    margin-left: 110px;
+}
+
+.divmiddletext h1 {
+    color: white;
+    font-size: 48px;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.divmiddletext h5 {
+    color: white;
+    font-size: 11px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 580px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.divmiddletext a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+    padding: 10px 40px 10px 40px;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.divmiddletext a:hover {
+    background-color:rgb(194, 29, 0);
+    border: 2px solid var(--secondcolor);
+    color: var(--secondcolor);
+}
+
+.divmiddlebar {
+    position: relative;
+    z-index: 31;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: rgb(255, 187, 0);
+    padding: 20px 0px 20px 90px;
+    border-radius: 8px;
+    margin-top: 110px;
+}
+
+.divmiddlebar h4 {
+    font-size: 18px;
+}
+
+.icon2 {
+    stroke-width: 2.3px;
+    width: 35px;
+    height: 50px;
+    margin: 0px 10px -25px 0px;
+}
+
+.pbar {
+    font-size: 10px;
+    font-weight: 400;
+    width: 200px;
+    margin: 0px 0px 0px 45px;
+}
+
+.menupict {
+    width: 100px;
+    height: 100px;
+}
+
+.menupict2 {
+    width: 130px;
+    height: 120px;
+}
+.menupict3 {
+    width: 120px;
+    height: 100px;
+}
+
+.menupict4 {
+    width: 80px;
+    height: 110px;
+}
+
+.menubar {
+    margin: 50px 80px 0px 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 80px 0px 80px;
+    border-radius: 80px;
+}
+
+.menubar a:hover {
+    padding: 0px 0px -10px 0px;
+    border-bottom: 5px solid var(--secondcolor);
+    transition: 0.2s;
+}
+
+.poster {
+    width: 240px;
+    height: 270px;
+    background-color: var(--thrid);
+    border: 2px solid var(--thrid);
+    margin: 70px 20px 0px 20px;
+}          
+
+.discount {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+
+}
+
+.titleapp {
+    color: white;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.appbar {
+    display: grid;
+    justify-content: space-around;
+    background-color: var(--secondcolor);
+    padding: 20px 0px 10px 0px;
+    margin: 60px 0px 0px 0px;
+}
+
+.app a{
+    margin-left: -15px;
+}
+
+.appstore  {
+    width: 240px;
+    height: 70px;
+}
+
+.googleplay {
+    width: 200px;
+    height: 69px;
+}
